@@ -1,0 +1,50 @@
+main .container-main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+main .container-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-self: center;
+  width: 100%;
+  gap: 0px;
+}
+
+main .container-grid .first-grid,
+main .container-grid .fourth-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding: 150px;
+  gap: 40px;
+}
+
+main .container-grid .first-grid h3,
+main .container-grid .fourth-grid h3 {
+  font-family: "Fraunces", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+main .container-grid .first-grid p,
+main .container-grid .fourth-grid p {
+  color: var(--dark-gray);
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+  line-height: 1.7rem;
+}
+
+main .container-grid .first-grid a,
+main .container-grid .fourth-grid a {
+  text-transform: uppercase;
+  font-family: "Fraunces", sans-serif;
+  font-weight: 900;
+}
+
+main .container-grid .graphic-design-grid div,
+main .container-grid .photography-grid div {
+    width: 450px;
+    
+}
