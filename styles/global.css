@@ -12,3 +12,8 @@
 @import "index/main/picture-template.css";
 
 @import "index/footer/footer.css";
+
+
+
+/*RESPONSIVE LAYOUT*/
+@import "responsive/responsive-page.css";

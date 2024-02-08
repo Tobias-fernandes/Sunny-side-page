@@ -36,7 +36,7 @@ main .container-grid .fourth-grid .red-line {
 
 main .container-grid .first-grid h3,
 main .container-grid .fourth-grid h3 {
-  font-family: 'Fraunces', sans-serif;
+  font-family: "Fraunces", sans-serif;
   font-size: 2.5rem;
   font-weight: 900;
 }
@@ -56,8 +56,33 @@ main .container-grid .fourth-grid a {
   font-weight: 900;
 }
 
+main .container-grid .graphic-design-grid,
+main .container-grid .photography-grid {
+  position: relative;
+}
+
 main .container-grid .graphic-design-grid div,
 main .container-grid .photography-grid div {
-    width: 450px;
-    
+  width: 400px;
+  text-align: center;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #224e46;
+}
+
+main .container-grid .graphic-design-grid div h3,
+main .container-grid .photography-grid div h3 {
+  font-family: "Fraunces", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 900;
+}
+
+main .container-grid .graphic-design-grid div p,
+main .container-grid .photography-grid div p {
+  margin-top: 30px;
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+  line-height: 30px;
 }

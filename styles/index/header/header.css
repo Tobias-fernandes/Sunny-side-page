@@ -2,6 +2,7 @@ header {
   background: url(../../../source/desktop/image-header.jpg);
   background-size: cover;
   height: 100vh;
+  width: 100%;
 }
 
 header .container-header {
