@@ -21,9 +21,22 @@ main .container-grid .fourth-grid {
   gap: 40px;
 }
 
+/* main .container-grid .first-grid .yellow-line {
+  border-bottom: 1px solid var(--yellow-weak);
+  border-radius: 30px;
+}
+
+main .container-grid .first-grid .yellow-line:hover {
+  border-bottom: var(--yellow);
+}
+
+main .container-grid .fourth-grid .red-line {
+  border-bottom: 2px solid var(--red);
+} */
+
 main .container-grid .first-grid h3,
 main .container-grid .fourth-grid h3 {
-  font-family: "Fraunces", sans-serif;
+  font-family: 'Fraunces', sans-serif;
   font-size: 2.5rem;
   font-weight: 900;
 }

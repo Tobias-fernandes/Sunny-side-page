@@ -1,0 +1,9 @@
+main .picture-template-grid {
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+main .picture-template-grid img {
+    width: 100%;
+}

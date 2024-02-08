@@ -6,5 +6,9 @@
 
 
 @import "index/header/header.css";
+
 @import "index/main/container-grid.css";
-@import "color/color.css";
+@import "index/main/testimonials.css";
+@import "index/main/picture-template.css";
+
+@import "index/footer/footer.css";

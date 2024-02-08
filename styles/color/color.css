@@ -1,9 +1,12 @@
 :root {
+  --red-weak: hsla(7, 99%, 70%, 0.445);
   --red: hsl(7, 99%, 70%);
+  --yellow-weak: hsla(51, 100%, 49%, 0.445);
   --yellow: hsl(51, 100%, 49%);
   --dark-cyan: hsl(167, 40%, 24%);
   --dark-blue: hsl(198, 62%, 26%);
   --dark-cyan-footer: hsl(168, 34%, 41%);
+  --color-font-footer: #224e46;
 
   --very-dark-blue: hsl(212, 27%, 19%);
   --very-dark-gray: hsl(213, 9%, 39%);
