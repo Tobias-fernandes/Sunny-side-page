@@ -1,15 +1,22 @@
 main .container-main {
   max-width: 1440px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
 main .container-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 0.5fr 0.5fr;
   justify-self: center;
   width: 100%;
-  gap: 0px;
 }
+
+main .container-grid img {
+  width: 100%;
+}
+
+
 
 main .container-grid .first-grid,
 main .container-grid .fourth-grid {
@@ -20,6 +27,8 @@ main .container-grid .fourth-grid {
   padding: 150px;
   gap: 40px;
 }
+
+
 
 /* main .container-grid .first-grid .yellow-line {
   border-bottom: 1px solid var(--yellow-weak);

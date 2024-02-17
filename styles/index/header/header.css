@@ -1,5 +1,6 @@
 header {
-  background: url(../../../source/desktop/image-header.jpg);
+  background: url(../../../source/desktop/image-header.jpg) no-repeat center
+    center;
   background-size: cover;
   height: 100vh;
   width: 100%;
@@ -26,6 +27,7 @@ header .container-header nav {
 header .container-header nav a {
   color: var(--white);
   font-family: "Barlow", sans-serif;
+  padding-block: 16px;
 }
 
 header .container-header nav .btn-contact {
@@ -37,6 +39,29 @@ header .container-header nav .btn-contact {
   font-weight: 900;
   color: #000;
   text-transform: uppercase;
+}
+
+header .container-header .btn-hamburguer-div {
+  display: none;
+}
+
+/* header .container-header nav.active {
+  
+} */
+
+header .container-header .btn-hamburguer-div button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+header .container-header .btn-hamburguer-div button svg {
+  width: 35px;
+  height: 35px;
+}
+
+header .container-header .btn-hamburguer-div button svg {
+  color: white;
 }
 
 header .container-header nav .btn-contact:hover {

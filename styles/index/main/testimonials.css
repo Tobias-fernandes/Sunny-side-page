@@ -8,7 +8,7 @@ main .testimonials {
 
 main .testimonials > h4 {
   font-size: 1.3rem;
-  font-family: 'Fraunces', sans-serif;
+  font-family: "Fraunces", sans-serif;
   text-transform: uppercase;
   letter-spacing: 4px;
   color: var(--gray);
@@ -16,7 +16,6 @@ main .testimonials > h4 {
 }
 
 main .testimonials .container-testimonials {
-  width: 1150px;
   display: flex;
   text-align: center;
   gap: 30px;
@@ -27,29 +26,30 @@ main .testimonials .container-testimonials div {
   flex-direction: column;
   gap: 50px;
   align-items: center;
+  width: 400px;
 }
 
 main .testimonials .container-testimonials div img {
   border-radius: 50%;
   width: 80px;
+  pointer-events: none;
 }
 
 main .testimonials .container-testimonials div p {
-  font-family: 'Barlow', sans-serif;
+  font-family: "Barlow", sans-serif;
   color: var(--dark-gray);
   font-weight: bold;
   line-height: 25px;
 }
 
 main .testimonials .container-testimonials div h5 {
-  font-family: 'Fraunces', sans-serif;
+  font-family: "Fraunces", sans-serif;
   font-size: 1.25rem;
   font-weight: 900;
-
 }
 
 main .testimonials .container-testimonials div h6 {
   margin-top: -38px;
-  font-family: 'Barlow', sans-serif;
+  font-family: "Barlow", sans-serif;
   color: var(--gray);
 }

@@ -1,12 +1,111 @@
-/* @media screen and (max-width: 1457px) {
-    main .container-grid {
-        display: flex;
-        flex-wrap: wrap;
-    }
+@media screen and (max-width: 1440px) {
+  main .container-grid {
+    grid-template-columns: 1fr;
+    place-items: center;
+  }
+  main .container-grid .first-grid {
+    width: 650px;
+  }
 }
 
-/*MOBILE*/
-/* @media screen and (max-width: 375px) {
-} */ 
+@media screen and (max-width: 1200px) {
+  main .testimonials {
+    display: grid;
+    place-items: center;
+  }
 
-/* Fazer */
+  main .testimonials .container-testimonials {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr;
+    gap: 120px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+  header .container-header.active nav {
+    display: flex;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 75vw;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 30px 0;
+    flex-direction: column;
+    gap: 30px;
+
+  }
+
+  header .container-header nav {
+    display: none;
+  }
+
+  header .container-header nav a {
+    color: var(--gray);
+    font-weight: bold;
+  }
+
+  header .container-header nav .btn-contact {
+    background: var(--yellow);
+  }
+
+  header .container-header nav .btn-contact:hover {
+    background: var(--yellow);
+  }
+
+  header .container-header .btn-hamburguer-div {
+    display: block;
+  }
+
+  header .content-header h1 {
+    font-size: 36px;
+  }
+
+  main .picture-template-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  main .container-grid .first-grid {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header .content-header h1 {
+    font-size: 28px;
+  }
+
+  main .container-grid .second-grid {
+    order: 1;
+  }
+
+  main .container-grid .first-grid {
+    order: 2;
+  }
+
+  main .container-grid .third-grid {
+    order: 3;
+  }
+
+  main .container-grid .fourth-grid {
+    order: 4;
+  }
+
+  main .container-grid .graphic-design-grid {
+    order: 5;
+  }
+
+  main .container-grid .photography-grid {
+    order: 6;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  header .content-header h1 {
+    font-size: 22px;
+  }
+}

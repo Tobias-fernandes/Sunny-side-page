@@ -8,18 +8,32 @@
     <link rel="shortcut icon" href="source/favicon-32x32.png" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="container-header">
         <a href="#">
           <img src="source/logo.svg" alt="Logo Image" />
         </a>
 
-        <nav>
+        <nav class="nav-links">
           <a href="#">About</a>
           <a href="#">Services</a>
           <a href="#">Projects</a>
           <a href="#" class="btn-contact">Contact</a>
         </nav>
+
+        <div class="btn-hamburguer-div">
+          <button class="hamburguer">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              style="fill: white; transform: 0;"
+            >
+              <path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path>
+            </svg>
+          </button>
+        </div>
       </div>
 
       <div class="content-header">
@@ -30,61 +44,64 @@
     </header>
 
     <main>
-
       <div class="container-main">
-
         <section class="container-grid">
           <div class="first-grid">
             <h3>Transform your brand</h3>
-  
+
             <p>
-              We are a full-service creative agency specializing in helping brands
-              grow fast. Engage your clients throught compelling visuals that do
-              most of the marketing for you.
+              We are a full-service creative agency specializing in helping
+              brands grow fast. Engage your clients throught compelling visuals
+              that do most of the marketing for you.
             </p>
-  
+
             <a href="#" class="yellow-line">Learn more</a>
           </div>
-  
-          <div>
+
+          <div class="second-grid">
             <img src="source/desktop/image-transform.jpg" alt="example image" />
           </div>
-  
-          <div>
+
+          <div class="third-grid">
             <img src="source/desktop/image-stand-out.jpg" alt="example image" />
           </div>
-  
+
           <div class="fourth-grid">
             <h3>Stand out to the right audience</h3>
-  
+
             <p>
               Using a collaborative formula if designers, researchers,
               photographers,<br />
-              videographers, and copywriters, we'll build and extend your brain in
-              digital places.
+              videographers, and copywriters, we'll build and extend your brain
+              in digital places.
             </p>
-  
+
             <a href="#" class="red-line">Learn more</a>
           </div>
-  
+
           <div class="graphic-design-grid">
             <img src="source/desktop/image-graphic-design.jpg" alt="" />
             <div>
               <h3>Graphic Design</h3>
-    
-              <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients' attention.</p>              
-            </div>
 
+              <p>
+                Great design makes you memorable. We deliver artwork that
+                underscores your brand message and captures potential clients'
+                attention.
+              </p>
+            </div>
           </div>
-  
+
           <div class="photography-grid">
             <img src="source/desktop/image-photography.jpg" alt="" />
             <div>
               <h3>Photography</h3>
-    
-              <p>Increase your credibility by getting the most stunning, high-quality-photos that improve your business image.</p>              
-            </div>
 
+              <p>
+                Increase your credibility by getting the most stunning,
+                high-quality-photos that improve your business image.
+              </p>
+            </div>
           </div>
         </section>
 
@@ -93,27 +110,36 @@
 
           <div class="container-testimonials">
             <div>
-              <img src="source/image-emily.jpg" alt="img person">
+              <img src="source/image-emily.jpg" alt="img person" />
 
-              <p>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+              <p>
+                We put our trust in Sunnyside and they delivered, making sure
+                our needs were met and deadlines were always hit.
+              </p>
 
               <h5>Emily R.</h5>
               <h6>Marketing Director</h6>
             </div>
 
             <div>
-              <img src="source/image-thomas.jpg" alt="img person">
+              <img src="source/image-thomas.jpg" alt="img person" />
 
-              <p>Sunnyside's enthusiam coupled with their keen interest in our brand's sucess made it a satisfying and enjoyable experience.</p>
+              <p>
+                Sunnyside's enthusiam coupled with their keen interest in our
+                brand's sucess made it a satisfying and enjoyable experience.
+              </p>
 
               <h5>Thomas S.</h5>
               <h6>Chief Operating Officer</h6>
             </div>
-            
-            <div>
-              <img src="source/image-jennie.jpg" alt="img person">
 
-              <p>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+            <div>
+              <img src="source/image-jennie.jpg" alt="img person" />
+
+              <p>
+                Incredible end result! Our sales increased over 400% when we
+                worked with Sunnyside. Highly recommended!
+              </p>
 
               <h5>Jennie F.</h5>
               <h6>Business Owner</h6>
@@ -122,19 +148,29 @@
         </section>
 
         <section class="picture-template-grid">
-          <img src="source/desktop/image-gallery-milkbottles.jpg" alt="example image">
-          <img src="source/desktop/image-gallery-orange.jpg" alt="example image">
-          <img src="source/desktop/image-gallery-cone.jpg" alt="example image">
-          <img src="source/desktop/image-gallery-sugarcubes.jpg" alt="example image">
+          <img
+            src="source/desktop/image-gallery-milkbottles.jpg"
+            alt="example image"
+          />
+          <img
+            src="source/desktop/image-gallery-orange.jpg"
+            alt="example image"
+          />
+          <img
+            src="source/desktop/image-gallery-cone.jpg"
+            alt="example image"
+          />
+          <img
+            src="source/desktop/image-gallery-sugarcubes.jpg"
+            alt="example image"
+          />
         </section>
-
       </div>
-
     </main>
 
     <footer>
       <a href="#">
-        <img src="source/logo-footer.svg" alt="logo" class="logo-footer">
+        <img src="source/logo-footer.svg" alt="logo" class="logo-footer" />
       </a>
 
       <div class="nav-footer">
@@ -144,11 +180,18 @@
       </div>
 
       <div class="social-media-footer">
-        <a href="#"><img src="source/icon-facebook.svg" alt="Facebook logo"></a>
-        <a href="#"><img src="source/icon-instagram.svg" alt="Instagram logo"></a>
-        <a href="#"><img src="source/icon-twitter.svg" alt="Twitter logo"></a>
-        <a href="#"><img src="source/icon-pinterest.svg" alt="Pinterest logo"></a>
+        <a href="#"
+          ><img src="source/icon-facebook.svg" alt="Facebook logo"
+        /></a>
+        <a href="#"
+          ><img src="source/icon-instagram.svg" alt="Instagram logo"
+        /></a>
+        <a href="#"><img src="source/icon-twitter.svg" alt="Twitter logo" /></a>
+        <a href="#"
+          ><img src="source/icon-pinterest.svg" alt="Pinterest logo"
+        /></a>
       </div>
     </footer>
   </body>
+  <script src="script/script.js"></script>
 </html>
