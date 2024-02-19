@@ -57,15 +57,20 @@
   header .container-header.active nav {
     display: flex;
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
-    width: 75vw;
+    width: 80vw;
     transform: translate(-50%, -50%);
     background-color: #fff;
     padding: 30px 0;
     flex-direction: column;
     gap: 30px;
   }
+
+  header .content-header.active {
+    display: none;
+  }
+
 
   header .container-header nav {
     display: none;
@@ -141,24 +146,50 @@
   }
 }
 
+
+
 @media screen and (max-width: 450px) {
   header .content-header h1 {
     font-size: 22px;
   }
+
+  header .container-header a img {
+    width: 140px;
+  }
+
 }
 
 @media screen and (max-width: 400px) {
   main .testimonials .container-testimonials div {
-    width: 100vw;
+    width: 90vw;
   }
 
   main .container-grid .graphic-design-grid div,
   main .container-grid .photography-grid div {
-    width: 100vw;
+    width: 95vw;
   }
 
   main .container-grid .graphic-design-grid div p,
   main .container-grid .photography-grid div p {
-    font-size: 15px;
+    margin-top: 18px;
+    font-size: 16px;
+    padding: 0 10px;
+    line-height: 20px;
   }
+}
+
+@media screen and (max-width: 380px) {
+
+  header .container-header a img {
+    width: 120px;
+  }
+
+  header .content-header h1 {
+    font-size: 18px;
+  }
+
+  main .testimonials > h4 {
+    font-size: 1.1rem;
+  }
+
 }
