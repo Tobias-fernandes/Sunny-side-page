@@ -146,3 +146,19 @@
     font-size: 22px;
   }
 }
+
+@media screen and (max-width: 400px) {
+  main .testimonials .container-testimonials div {
+    width: 100vw;
+  }
+
+  main .container-grid .graphic-design-grid div,
+  main .container-grid .photography-grid div {
+    width: 100vw;
+  }
+
+  main .container-grid .graphic-design-grid div p,
+  main .container-grid .photography-grid div p {
+    font-size: 15px;
+  }
+}
